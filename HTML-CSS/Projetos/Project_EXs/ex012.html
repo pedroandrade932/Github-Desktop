@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu décimo segundo exercicio.</title>
+	<link href="_css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+        <h1>Imagens dinamicas.</h1>
+        <hr>
+        <p>
+            Acesse esse sites a partir de diferentes dispositivos <br>ou aumente
+            e diminua o navegador para ver acontecer.
+        </p>
+        <picture>
+            <source srcset="_imagens/imagem-p.png" type="image/png" media="(max-width: 850px)">
+            <img src="_imagens/imagem-m.png" alt="Imagem flexível">
+        </picture>
+        <h1>Reproduzindo audios.</h1>
+        <p>
+            Vamos aprender a colocar audios no site.
+        </p>
+        <audio preload="metadata" controls loop>
+            <source src="_midia/Nevada.mp3" type="audio/mpeg">
+            <p>
+                <imf>infelizmente seu navegador não <br>conseque reproduzir esse audio.</imf>
+            </p>
+        </audio>
+        <br>
+        <hr>
+        <a href="index.html">Voltar ao menu.</a>
+        </main>
+    </body>
+</html>

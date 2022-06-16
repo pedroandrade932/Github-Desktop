@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Frederick';
+    src: url('../_fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+body {
+    /* condensando na ordem:
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;*/
+    background-image: linear-gradient( to right, rgb(0, 175, 146),rgb(0, 0, 255));
+    font: normal normal 1.2em 'Frederick', Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+h1{
+    background-color: rgb(0, 175, 146);
+    border-radius: 10px;
+    text-align: center;
+}

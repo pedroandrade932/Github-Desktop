@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(51, 61, 255, 1), rgba(22, 31, 219, 1));
+}
+
+main {
+    background-color: rgba(255,255,255,1);
+    border-radius: 7px;/* Arredondamento. */
+    box-shadow: 5px 5px 15px rgba(5, 11, 119, 0.685);/* p1: lado, p2: baixo, p3: espalhamento, p4: cor. */
+    width: 600px;/* Largura da tag. */
+    padding: 10px;/* Acochoamento. */
+    margin: auto;/* Centralização. */
+}
+
+h1 {
+    color: rgba(219, 180, 22, 0.726);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(170, 140, 17);
+}
+
+h2 {
+    color: #8F7200;
+}
+
+p {
+    text-align: justify;
+}

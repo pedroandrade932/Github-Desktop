@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Configurações globais. */
+
+:root {
+    --cor_b1: rgb(0, 235, 164);
+    --cor_b2: rgb(0,0,255);
+    --cor_b3: rgb(0, 35, 99);
+    --cor_vd1: rgb(0, 107, 75);
+    --cor_v1: rgb(138, 43, 226);
+    --cor_w: rgb(255, 255, 255);
+    --cor_bl: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, var(--cor_b1), var(--cor_b2));
+}
+
+/* Configurações principais. */
+
+header {
+    color: var(--cor_b1);
+    background-color: var(--cor_b3);
+    height: 140px;
+    padding: 2px;
+}
+
+nav {
+    position: absolute;
+    top: 114px;
+    left: 10px;
+}
+
+main {
+    margin: auto;
+    text-align: justify;
+    padding: 20px 10px 20px 10px;
+    min-width: 300;
+    max-width: 950px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 2px var(--cor_b3);
+    background-color: var(--cor_w);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor_v1);
+}
+
+/* Outras configurações. */
+
+h1 {
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+img#perfil {
+    border-radius: 100%;
+	
+}
+
+nav > a {
+    text-decoration: none;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor_w);
+    transition: background-color 0.4s;
+}
+
+nav a:hover {
+    background-color: var(--cor_b1);
+    color: var(--cor_b3);
+}
+
+header h1 {
+    margin-top: 30px;
+}
+
+main a {
+    background-color: var(--cor_vd1);
+    color: var(--cor_w);
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 5px;
+}

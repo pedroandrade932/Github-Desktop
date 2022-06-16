@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+	font-family: 'Giz font';
+	src: url('../_fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+
+body {
+	margin: auto;
+	padding: 10px;
+	width: 85%;
+	/* Cor de fundo. */
+	background-image: linear-gradient(to right, rgba(0,140,140,1), rgba(0,0,255,1));
+	font-family: 'Work sans', Arial, Helvetica, sans-serif;/* Tipo de fonte. */
+}
+
+main {
+	background-color: rgba(255,255,255,1);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgb(0, 0, 158);
+
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,255,1);
+}
+
+h1 {
+	color: rgba(0,0,0,1);
+	background-color: rgba(0,140,140,1);
+	text-align: center;
+	border-radius: 10px;
+	font-family: 'Giz font', sans-serif;
+}
+
+h2 {
+	color: rgba(155,0,255,1);
+	text-align: center;
+}
+
+p {
+	color: rgba(0,0,0,1);
+	text-align: left;
+}
+
+ol {
+	color: rgb(187, 125, 0);
+	text-align: left;
+}
+
+ul {
+	
+	color: rgba(0,140,140,1);
+	text-align: left;
+}
+
+#imgpos {
+	position: relative;
+	left: 25%;
+	right: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+code {
+	color: rgb(187, 125, 0);
+}
